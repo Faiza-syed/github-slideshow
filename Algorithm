@@ -1,0 +1,44 @@
+START
+Create Snack type variables and those variables will have the name of the snack and give each variable its number (e.g Lays, Cheetos) (Snack is a user-defined structure with members integer type snack_code , available_snacks =10, total_snacks=10 and float price)
+Create bool money
+Print “Welcome Please input the money for the snacks”
+Read money_input
+If money is not valid
+Print “Invalid amount”
+Give back money_input
+If the money_input is valid
+Create integer type array arr[42]
+Read the dialled number and store it in array arr until “ok” is pressed
+If that number/s exists 
+Then check, if there is more than one snack
+Add all the prices and store in integer type total price.
+End if
+Else if there is only one snack 
+Then that snack’s price = total price.
+End else if
+Else that number doesn’t exist.
+Then print “enter the valid number”
+go to step 4.
+End else
+If that money input >= total amount.
+Integer type money_output = money_input
+Create for loop with int i=0 and will repeat until i<=size of arr.
+if the available_snack of that number/s >0 
+Decrement the available_snacks of that number
+Rotate metal spirals of that particular number until the item is dropped
+Stop rotation
+End while loop
+money_output = money_input – total_amount
+Increment I
+End if
+Else
+Print “(snack name) is not available”
+End for loop
+Give money_output
+End if
+Go to step 4
+Else money input != total amount 
+Print “Insufficient amount for snacks”
+Give back the money_input
+End else
+END
